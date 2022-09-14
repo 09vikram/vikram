@@ -1,0 +1,1061 @@
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+
+/* nav bar */
+
+.navbar{
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* border: 1px solid rgb(218, 51, 51); */
+    background-color:rgb(255, 255, 255);
+    align-items: center;
+    position: sticky;
+    top: 0em;
+    /* z-index: 566; */
+    width: 100%;
+  
+}
+
+.left-side{
+    display: flex;
+    flex: 1;
+    margin-left: 1.5em;
+   align-items:center ;
+   cursor: pointer;
+    /* border: 1px solid red;  */
+    /* background-color: white; */
+}
+
+.bar{
+    margin-right: 1em;
+    font-size:1.3em ;  
+    cursor: pointer;
+}
+
+.left-side > img{
+    /* margin-top: 0.5em; */
+    margin-bottom: 0.5em;
+    cursor: pointer;
+}
+
+
+.middel{
+    display: flex;
+    flex: 3;
+    align-items: center;
+    /* border: 5px solid rgb(25, 0, 255); */
+    margin-left: 3em;
+}
+
+.middel > input{
+    width: 70%;
+   height: 2.5em;
+   border: 0.1em solid rgb(175, 172, 172);
+   font-size: 1em;
+   padding-left: 1em;
+   
+}
+
+.search{
+ font-size: 1.3em;
+background-color: rgb(228, 223, 223);
+border: 0.1em solid rgb(184, 183, 183);
+border-bottom: none;
+border-top: none;
+padding: 0.4em;
+position: relative;
+left: -3.2em;
+padding-left: 1em;
+padding-right: 1em;
+cursor: pointer;
+}
+
+.mice{
+    font-size: 1.4em;
+    background-color: rgb(202, 196, 196);
+border-radius: 50px;
+padding: 0.4em;
+margin-left: -2.5em;
+cursor: pointer;
+}
+
+.right-side{
+    display: flex;
+    flex: 0.5;
+    align-items: center;
+    /* border: 5px solid rgb(0, 255, 85); */
+    margin-right: 1em;
+}
+    
+     .video{
+        font-size: 1.3em;
+        margin-right: 1.5em;  
+        cursor: pointer;
+    }
+    
+    .bell{
+        font-size: 1.3em;
+        margin-right: 1.5em;
+        cursor: pointer;
+    }
+    
+    .profile{
+        font-size: 1.3em;
+        margin-right: 1.5em;
+        cursor: pointer;
+    } 
+
+
+    .parent{
+        display: flex;
+    }
+
+    /* leftside */
+    .leftside{
+        flex: 1;
+        overflow: scroll;
+        height: 100vh; 
+        background-color: rgb(255, 255, 255);
+        margin-left: 0.9em;
+        cursor: pointer;
+        /* position: fixed; */
+        /* top: 4em; */
+    }
+
+    .leftside > :hover{
+        background-color: rgb(228, 225, 225);
+        
+    }
+    
+    .home{
+        font-size: 1em;
+        align-items: center;
+        display: flex;
+        padding-top: 0.5em;
+    
+    }
+    
+    .home > i{
+        margin-right: 1.4em;
+    }
+    
+    .home > span{
+        text-transform: capitalize;
+    }
+    
+    
+    .explore{
+        font-size: 1em;
+        align-items: center;
+        display: flex; 
+        padding-top: 0.5em;
+    }
+    
+    .explore > i{
+        margin-right: 1.4em;
+    }
+    
+    .explore> span{
+        text-transform: capitalize;
+    }
+    
+    
+    .shorts{
+        font-size: 1em;
+        align-items: center;
+        display: flex; 
+        padding-top: 0.5em;
+    }
+    
+    .shorts > i{
+        margin-right: 1.4em;
+    }
+    
+    .shorts> span{
+        text-transform: capitalize;
+    }
+    
+    
+    .Subscriptions{
+        font-size: 1em;
+        align-items: center;
+        display: flex; 
+        padding-top: 0.5em;
+    }
+    
+    .Subscriptions > i{
+        margin-right: 1.4em;
+    }
+    
+    .Subscriptions> span{
+        text-transform: capitalize;
+    }
+    
+    /* second left side main section */
+    
+    .library{
+        font-size: 1em;
+        align-items: center;
+        display: flex; 
+        padding-top: 0.5em;
+    }
+    
+    .library > i{
+        margin-right: 1.4em;
+    }
+    
+    .library> span{
+        text-transform: capitalize;
+    }
+    
+    
+    .History{
+        font-size: 1em;
+        align-items: center;
+        display: flex;
+        padding-top: 0.5em; 
+    }
+    
+    .History > i{
+        margin-right: 1.4em;
+    }
+    
+    .History> span{
+        text-transform: capitalize;
+    }
+    
+    
+    .your_videos{
+        font-size: 1em;
+        align-items: center;
+        display: flex; 
+        padding-top: 0.5em;
+    }
+    
+    .your_videos > i{
+        margin-right: 1.4em;
+    }
+    
+    .your_videos> span{
+        text-transform: capitalize;
+    }
+    
+    
+    .watch_later{
+        font-size: 1em;
+        align-items: center;
+        display: flex; 
+        padding-top: 0.5em;
+    }
+    
+    .watch_later > i{
+        margin-right: 1.4em;
+    }
+    
+    .watch_later> span{
+        text-transform: capitalize;
+    }
+    
+    
+    .liked_videos{
+        font-size: 1em;
+        align-items: center;
+        display: flex; 
+        padding-top: 0.5em;
+    }
+    
+    .liked_videos > i{
+        margin-right: 1.4em;
+    }
+    
+    .liked_videos> span{
+        text-transform: capitalize;
+    }
+    
+    /* 3rd left side main section */
+    
+    .subscriptions{
+       margin-top: 0.7em;
+    } 
+
+    .subscriptions > span{
+        text-transform: uppercase;
+
+    }
+    
+    .friends_forever{
+        font-size: 1em;
+        align-items: center;
+        display: flex; 
+        padding-top: 0.5em;
+    }
+    
+    .friends_forever > img{
+        margin-right: 1em;
+        border-radius: 50%;
+    }
+    
+    .friends_forever > span{
+     text-transform: capitalize;
+    }
+    
+    
+    .gym_world{
+        font-size: 1em;
+        align-items: center;
+        display: flex; 
+        padding-top: 0.5em;
+    }
+    
+    .gym_world > img{
+        margin-right: 1em;
+        border-radius: 50%;
+    }
+    
+    .gym_world > span{
+     text-transform: capitalize;
+    }
+    
+    
+    .computer{
+        font-size: 1em;
+        align-items: center;
+        display: flex; 
+        padding-top: 0.5em;
+    }
+    
+    .computer > img{
+        margin-right: 1em;
+        border-radius: 50%;
+    }
+    
+    .computer > span{
+     text-transform: capitalize;
+    }
+    
+    
+    .nagarparishad{
+        font-size: 1em;
+        align-items: center;
+        display: flex;
+        padding-top: 0.5em; 
+    }
+    
+    .nagarparishad > img{
+        margin-right: 1em;
+        border-radius: 50%;
+    }
+    
+    .nagarparishad > span{
+     text-transform: capitalize;
+    }
+    
+    /* 4th left side main section */
+    
+    .explores{
+        margin-top: 0.7em;
+     } 
+
+    .explores > span{
+        text-transform: uppercase;
+    }
+    
+    .movies{
+        font-size: 1em;
+        align-items: center;
+        display: flex; 
+        padding-top: 0.5em;
+    }
+    
+    .movies > i{
+        margin-right: 1.4em;
+    }
+    
+    .movies> span{
+        text-transform: capitalize;
+    }
+    
+    
+    .gamming{
+        font-size: 1em;
+        align-items: center;
+        display: flex; 
+        padding-top: 0.5em;
+    }
+    
+    .gamming > i{
+        margin-right: 1.4em;
+    }
+    
+    .gamming> span{
+        text-transform: capitalize;
+    }
+    
+    
+    .live{
+        font-size: 1em;
+        align-items: center;
+        display: flex; 
+        padding-top: 0.5em;
+    }
+    
+    .live > i{
+        margin-right: 1.4em;
+    }
+    
+    .live> span{
+        text-transform: capitalize;
+    }
+    
+    
+    .fasion_bauty{
+        font-size: 1em;
+        align-items: center;
+        display: flex; 
+        padding-top: 0.5em;
+    }
+    
+    .fasion_bauty > i{
+        margin-right: 1.4em;
+    }
+    
+    .fasion_bauty> span{
+        text-transform: capitalize;
+    }
+    
+    
+    .learning{
+        font-size: 1em;
+        align-items: center;
+        display: flex; 
+        padding-top: 0.5em;
+    }
+    
+    .learning > i{
+        margin-right: 1.4em;
+    }
+    
+    .learning> span{
+        text-transform: capitalize;
+    }
+    
+    
+    .sports{
+        font-size: 1em;
+        align-items: center;
+        display: flex; 
+        padding-top: 0.5em;
+    }
+    
+    .sports > i{
+        margin-right: 1.4em;
+    }
+    
+    .sports> span{
+        text-transform: capitalize;
+    }
+    
+    /* 5th left side main section */
+    
+    .more_from_youtube{
+        margin-top: 0.7em;
+     } 
+
+    .more_from_youtube > span {
+        text-transform: uppercase;
+    }
+    
+    
+    .youtube_primium{
+        font-size: 0.9em;
+        align-items: center;
+        display: flex;
+        padding-top: 0.5em; 
+    }
+    
+    .youtube_primium > img{
+        margin-right: 1em;
+        border-radius: 50%;
+    }
+    
+    .youtube_primium > span{
+     text-transform: capitalize;
+    }
+    
+    
+    .creator_studio{
+        font-size: 0.9em;
+        align-items: center;
+        display: flex;
+        padding-top: 0.5em; 
+    }
+    
+    .creator_studio > img{
+        margin-right: 1em;
+        border-radius: 50%;
+    }
+    
+    .creator_studio > span{
+     text-transform: capitalize;
+    }
+    
+    
+    .youtube_music{
+        font-size: 0.9em;
+        align-items: center;
+        display: flex;
+        padding-top: 0.5em; 
+    }
+    
+    .youtube_music > img{
+        margin-right: 1em;
+        border-radius: 50%;
+    }
+    
+    .youtube_music > span{
+     text-transform: capitalize;
+    }
+    
+    
+    .youtube_kids{
+        font-size: 0.9em;
+        align-items: center;
+        display: flex;
+        padding-top: 0.5em; 
+    }
+    
+    .youtube_kids > img{
+        margin-right: 1em;
+        border-radius: 50%;
+    }
+    
+    .youtube_kids > span{
+     text-transform: capitalize;
+    }
+    
+    
+    .youtube_tv{
+        font-size: 0.9em;
+        align-items: center;
+        display: flex;
+        padding-top: 0.5em; 
+    }
+    
+    .youtube_tv > img{
+        margin-right: 1em;
+        border-radius: 50%;
+    }
+    
+    .youtube_tv > span{
+     text-transform: capitalize;
+    }
+    
+    /* 6th left side main section */
+    
+    .setting{
+        font-size: 1em;
+        align-items: center;
+        display: flex; 
+        padding-top: 0.5em;
+    }
+    
+    .setting > i{
+        margin-right: 1.4em;
+    }
+    
+    .setting> span{
+        text-transform: capitalize;
+    }
+    
+    
+    .report_history{
+        font-size: 1em;
+        align-items: center;
+        display: flex; 
+        padding-top: 0.5em;
+    }
+    
+    .report_history > i{
+        margin-right: 1.4em;
+    }
+    
+    .report_history> span{
+        text-transform: capitalize;
+    }
+    
+    
+    .help{
+        font-size: 1em;
+        align-items: center;
+        display: flex; 
+        padding-top: 0.5em;
+    }
+    
+    .help > i{
+        margin-right: 1.4em;
+    }
+    
+    .help> span{
+        text-transform: capitalize;
+    }
+    
+    
+    .send_feedback{
+        font-size: 1em;
+        align-items: center;
+        display: flex; 
+        padding-top: 0.5em;
+    }
+    
+    .send_feedback > i{
+        margin-right: 1.4em;
+    }
+    
+    .send_feedback> span{
+        text-transform: capitalize;
+    }
+    
+    .span1> span{
+        text-transform: capitalize;
+        font-size: 0.9em;
+    }
+    
+    .p1 > p{
+        text-transform: capitalize;
+        font-size: 0.9em;
+    }
+
+
+/* rightside */
+
+    .rightside{
+        flex: 5;
+        overflow: scroll;
+        height: 100vh; 
+        /* background-color: rgb(89, 167, 219); */
+        background-color: rgb(243, 241, 241);
+    }
+
+    /* .menu{
+        display: flex;
+       border: 1px solid gray;
+       border-left: none;
+       border-right: none;
+       background-color: rgb(250, 250, 250);
+       width: 100%;
+       height: 50px;
+       align-items: center;
+       margin-top: 65px;
+       margin-left: 1em;
+       justify-content: space-around;
+       cursor: pointer;
+       position: sticky;
+       top: 0px;
+       overflow-x: hidden;
+       margin-left: 5em;
+    } */
+
+    .menu{
+        background-color: white;
+        height: 50px;
+        position: fixed;
+        top: 3.60rem;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .menu_section > span:hover{
+        background-color: black;
+        color: rgb(255, 255, 255);
+    }
+
+    .menu_section{
+        background-color: rgb(226, 224, 224);
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 50px;
+      overflow-x: hidden;
+      cursor: pointer;     
+    }
+
+    .menu_section>span{
+padding: 0.5rem 1rem;
+background-color: white;
+border-radius: 0.5rem;
+
+    }
+
+/* video section */
+
+.videos{
+    display: flex;
+    word-wrap: break-word;
+    margin-top: 3.5em;
+    margin-left: 1em;
+    cursor: pointer;
+    /* border: 1px solid red; */
+    
+}
+
+.single_video{
+    margin-right: 1em;
+    padding-top: 0.3em;
+    /* border: 1px solid red; */
+    transition: transform .2s; /* Animation */
+
+   
+
+}
+
+.video_1:hover{
+/* 
+    width: 260px !important;
+    height: 200px !important; */
+    transform: scale(1.1);
+
+
+}
+
+.video_profile{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    /* word-wrap: break-word; */
+    /* word-break: break-all; */
+  
+  }
+
+  .video_profile > span{
+    /* word-wrap: break-word; */
+    word-break: break-all;
+    font-size: 0.9em;
+    font-weight: bold;
+    overflow: hidden;
+  
+  }
+
+  .video_profile > img{
+    border-radius: 50px;
+    margin-right: 0.2em;
+   font-size: 50px;
+  }
+
+  .channel_title{
+    margin-left: 3em;
+    padding-top: 1em;
+    /* font-weight: bold; */
+    color: rgb(36, 35, 35);
+    font-size: 13.5px !important;
+
+  }
+
+  span1{
+    color: rgb(36, 35, 35);
+    font-size: 13.5px !important;
+    margin-left: 3.5em;
+  }
+
+  .secondline_video{
+    display: flex;
+    word-wrap: break-word;
+    margin-top: 1em;
+    margin-left: 1em;
+  }
+
+/* animista  */
+
+
+.slide-left {
+	-webkit-animation: slide-left 8s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+	        animation: slide-left 8s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+}
+
+
+/* ----------------------------------------------
+ * Generated by Animista on 2022-9-14 11:7:39
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation slide-left
+ * ----------------------------------------
+ */
+ @-webkit-keyframes slide-left {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(-100px);
+              transform: translateX(-100px);
+    }
+  }
+  @keyframes slide-left {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(-100px);
+              transform: translateX(-100px);
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  /* media queries  */
+
+
+  @media  (max-width: 576px) {
+
+    .left-side > img{
+        /* margin-top: 0.5em; */
+        margin-bottom: 0.2em;
+        cursor: pointer;
+    }
+    
+    .middel > input{
+        width: 100%;
+       height: 2.5em;
+       border: 0.1em solid rgb(175, 172, 172);
+       font-size: 1em;
+       padding-left: 1em;
+       
+
+        
+    }
+
+    .search{
+        font-size: 1.3em;
+       background-color: rgb(228, 223, 223);
+       border: 0.1em solid rgb(184, 183, 183);
+       border-bottom: none;
+       border-top: none;
+       padding: 0.4em;
+       position: relative;
+       left: -2em;
+       /* padding-left: 1em;
+       padding-right: 1em; */
+       cursor: pointer;
+       }
+
+
+    .right-side{
+        display: flex;
+        flex: 0.2;
+        align-items: center;
+        
+    }
+
+
+    .mice{
+        display: none !important;
+    }
+
+
+    .video{
+       display: none !important;
+    }
+    
+
+    .bell{
+        display: none;
+    }
+
+    .parent{
+        display: flex;
+    }
+
+    .leftside{
+       display: none;
+    }
+
+
+    .rightside{
+        flex: auto;
+        overflow: scroll;
+        height: 100vh; 
+        flex-wrap: wrap;
+        /* background-color: rgb(89, 167, 219); */
+        background-color: rgb(243, 241, 241);
+    }
+
+    .menu{
+     display: none;
+      
+    }
+
+
+    .videos{
+        display: flex;
+        word-wrap: break-word;
+        margin-top: 1em;
+        margin-left: 1em;
+        cursor: pointer;
+        flex-wrap: wrap;
+    }
+
+    .secondline_video{
+        display: flex;
+        word-wrap: break-word;
+        margin-top: 1em;
+        margin-left: 1em;
+        flex-wrap: wrap;
+      }
+    
+
+    
+  }
+
+
+
+  @media(max-width: 360px) {
+
+
+    /* .left-side{
+        display: flex;
+        flex: 0.5;
+        margin-left: 1.5em;
+       align-items:center ;
+       cursor: pointer;
+        border: 1px solid red; 
+        background-color: white;
+    } */
+
+
+
+    /* .bar{
+        display: none !important;
+    } */
+
+    /* .left-side > img{
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        cursor: pointer;
+        width: 4em;
+        height:2em ;
+        margin-left: -1em;
+    } */
+    
+
+
+    /* .middel{
+        display: flex;
+        flex: 5 !important;
+        align-items: center;
+        justify-content:flex-end; */
+        /* border: 5px solid rgb(25, 0, 255); */
+        /* margin-left: -3em !important; */
+        /* border: 1px solid red; */
+        /* margin-right: 7em !important; */
+
+    /* } */
+
+    /* .middel > input{ */
+       /* display: none !important; */
+       /* width: 100% !important;
+       height: 0px 2.5em; */
+       /* margin-right: -1em !important; */
+       /* margin-right: 5em !important; */
+       
+    /* } */
+    
+
+    /* .search{
+        font-size: 1.3em !important; */
+       /* background-color: rgb(228, 223, 223);
+       border: 0.1em solid rgb(184, 183, 183); */
+       /* border-bottom: none;
+       border-top: none;
+       padding: 0.4em;
+       position: relative;
+       left: -3.2em;
+       padding-left: 1em;
+       padding-right: 1em;
+       cursor: pointer; */
+       /* background-color: rgb(255, 255, 255);
+       border: none !important;
+       left: 0px !important;
+       
+       }
+     */
+/* 
+    .right-side{
+        display: flex;
+        flex: 0.5;
+        align-items: center; */
+        /* border: 5px solid rgb(0, 255, 85); */
+        /* margin-right: 1em; */
+        /* border: 1px solid red; */
+        /* margin-left: auto !important;
+        justify-content: flex-start;
+    } */
+
+
+    /* .bell{ */
+        /* font-size: 1.3em; */
+        /* margin-right: 0.5em !important;
+        cursor: pointer;
+    }
+     */
+    /* .profile{ */
+        /* font-size: 1.3em; */
+        /* margin-right: 0px !important;
+        cursor: pointer;
+    }  */
+
+
+    /* .videos{
+        display: flex;
+        word-wrap: break-word;
+        margin-top: 1em;
+        margin-left: 0em !important;
+        cursor: pointer; */
+        /* justify-content: center !important; */
+        /* width: 100vw !important; */
+    /* } */
+
+    /* .single_video{ */
+        /* width: 100% !important; */
+        /* margin-right: 0em !important; */
+    
+    /* } */
+
+
+    /* .secondline_video{
+        display: flex;
+        word-wrap: break-word;
+        margin-top: 1em;
+        margin-left: 1em;
+        justify-content: center !important;
+      }
+     */
+
+
+  /* } */
