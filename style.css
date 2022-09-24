@@ -765,7 +765,7 @@ span1 {
 
 /* media queries  */
 
-@media (max-width: 600px) {
+@media (max-width: 570px) {
     .left-side>img {
         /* margin-top: 0.5em; */
         margin-bottom: 0.2em;
