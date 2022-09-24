@@ -765,7 +765,7 @@ span1 {
 
 /* media queries  */
 
-@media (max-width: 576px) {
+@media (max-width: 600px) {
     .left-side>img {
         /* margin-top: 0.5em; */
         margin-bottom: 0.2em;
@@ -826,7 +826,7 @@ span1 {
         display: flex;
         word-wrap: break-word;
         margin-top: 1em;
-        margin-left: 1em;
+        margin-left: 2em;
         cursor: pointer;
         flex-wrap: wrap;
     }
@@ -834,7 +834,7 @@ span1 {
         display: flex;
         word-wrap: break-word;
         margin-top: 1em;
-        margin-left: 1em;
+        margin-left: 2em;
         flex-wrap: wrap;
     }
 }
@@ -916,12 +916,22 @@ span1 {
         display: none;
     }
     .videos {
+        display: flex;
+        word-wrap: break-word;
+        margin-top: 1em;
+        margin-left: 1em;
+        flex-wrap: wrap;
         cursor: pointer;
         height: auto;
         width: 100% !important;
         justify-content: center;
     }
     .secondline_video {
+        display: flex;
+        word-wrap: break-word;
+        margin-top: 1em;
+        margin-left: 1em;
+        flex-wrap: wrap;
         cursor: pointer;
         /* margin: 1em; */
         height: auto;
